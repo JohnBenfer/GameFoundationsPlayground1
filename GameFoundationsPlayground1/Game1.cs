@@ -12,6 +12,7 @@ namespace GameFoundationsPlayground1
         Texture2D ballTexture;
         Vector2 ballPosition;
         float ballSpeed;
+        float ballRotation;
 
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
@@ -33,7 +34,7 @@ namespace GameFoundationsPlayground1
             // TODO: Add your initialization logic here
             ballPosition = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
             ballSpeed = 100f;
-
+            ballRotation = 0;
 
             base.Initialize();
         }
@@ -85,12 +86,14 @@ namespace GameFoundationsPlayground1
 
             if (kstate.IsKeyDown(Keys.Left))
             {
-                ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
+                ballRotation -= (float)0.1;
+                //ballPosition.X -= ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
             }
 
             if (kstate.IsKeyDown(Keys.Right))
             {
-                ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
+                ballRotation += (float)0.1;
+                //ballPosition.X += ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds * 2;
             }
 
             if(ballPosition.X > graphics.PreferredBackBufferWidth - (ballTexture.Width / 2))
@@ -113,6 +116,10 @@ namespace GameFoundationsPlayground1
                 ballPosition.Y = ballTexture.Width / 2;
             }
 
+            if(kstate.IsKeyDown(Keys.Space))
+            {
+                ballRotation += (float)0.1;
+            }
 
             base.Update(gameTime);
             
@@ -129,7 +136,7 @@ namespace GameFoundationsPlayground1
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             //spriteBatch.Draw(ballTexture, ballPosition, Color.White);
-            spriteBatch.Draw(ballTexture, ballPosition, null, Color.White, 0f, new Vector2(ballTexture.Width / 2, ballTexture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
+            spriteBatch.Draw(ballTexture, ballPosition, null, Color.White, ballRotation, new Vector2(ballTexture.Width / 2, ballTexture.Height / 2), Vector2.One, SpriteEffects.None, 0f);
             spriteBatch.End();
 
             base.Draw(gameTime);
