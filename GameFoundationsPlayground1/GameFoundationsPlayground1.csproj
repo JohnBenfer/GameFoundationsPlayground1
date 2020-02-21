@@ -47,10 +47,94 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
-      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+      <HintPath>\Users\jbenfer\Projects\GameFoundationsPlayground1\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
+    <Reference Include="Lidgren.Network">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Content.Pipeline">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\MonoGame.Framework.Content.Pipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Net">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\MonoGame.Framework.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\assimp\AssimpNet.dll</HintPath>
+    </Reference>
+    <Reference Include="ATI.TextureConverter">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\ATI.TextureConverter\ATI.TextureConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="CppNet">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\CppNet\CppNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eto">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Eto\Eto.dll</HintPath>
+    </Reference>
+    <Reference Include="Eto.Wpf">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Eto\Eto.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeImageNET">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\FreeImage.NET\Windows\FreeImageNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Nvidia.TextureTools">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\NVTT\Windows\Nvidia.TextureTools.dll</HintPath>
+    </Reference>
+    <Reference Include="PVRTexLibNET">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\PVRTexLibNET\PVRTexLibNET.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.D3DCompiler">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.D3DCompiler.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.MediaFoundation">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.MediaFoundation.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.RawInput">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.RawInput.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XAudio2">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.XAudio2.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.XInput">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpDX\Windows\SharpDX.XInput.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpFont">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\SharpFont\x64\SharpFont.dll</HintPath>
+    </Reference>
+    <Reference Include="NDesk.Options">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Tests\NDesk.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Tests\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Tests\nunit.core.interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Tests\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\Tests\nunit.util.dll</HintPath>
+    </Reference>
+    <Reference Include="Xwt">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\xwt\Xwt.dll</HintPath>
+    </Reference>
+    <Reference Include="Xwt.WPF">
+      <HintPath>..\packages\MonoGame.Framework.Redpoint.3.5.0\lib\net45\_AutomaticExternals\ThirdParty\Dependencies\xwt\Xwt.WPF.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
@@ -58,6 +142,7 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

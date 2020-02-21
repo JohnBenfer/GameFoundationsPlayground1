@@ -33,7 +33,7 @@ namespace GameFoundationsPlayground1
         {
             // TODO: Add your initialization logic here
             ballPosition = new Vector2(graphics.PreferredBackBufferWidth / 2, graphics.PreferredBackBufferHeight / 2);
-            ballSpeed = 100f;
+            ballSpeed = 150f;
             ballRotation = 0;
 
             base.Initialize();
